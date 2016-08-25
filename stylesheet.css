@@ -99,7 +99,13 @@ background-color:#0d2ba3;
 	text-align:center;
 	}
 #three{
-	background-image:url("images/10k.jpg");
+	background-image:url("images/nasashot.jpg");
+	background-size:cover;
+	color:white;
+	text-align:center;
+	}
+#four{
+	background-image:url("images/diving2.png");
 	background-size:cover;
 	color:white;
 	text-align:center;
