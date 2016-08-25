@@ -1,0 +1,82 @@
+@CHARSET "UTF-8";
+
+body{
+	background-image:url("images/NYC.jpg");
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+	background-position:center;
+	background-color:#35465c;
+}
+p{
+	
+	font-family:cursive;
+}
+a{
+ text-deoration:none;
+	
+}
+img{
+	height:500px;
+	
+}
+.container{
+	background-size:cover;
+	background-color:#00ff00;
+	width: 70%; 
+	height:40em;
+	margin: 0 auto; 
+}
+
+.nav{
+	padding:5px;
+	width:85%;
+}
+
+.nav ul{
+	
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;	
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: #ffffff;
+    color:black;
+}
+
+.active {
+background-color:#0d2ba3;
+}
+
+#one{
+	background-image:url("images/me.JPG");
+	background-size:cover;
+	color:white;
+	text-align:center;
+	}
+#two{
+	background-image:url("images/me2.png");
+	background-size:cover;
+	color:white;
+	text-align:left;
+	}
+#three{
+	background-image:url("images/NYC.jpg");
+	background-size:cover;
+	color:white;
+	text-align:center;
+	}
