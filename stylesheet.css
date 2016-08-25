@@ -2,10 +2,10 @@
 
 body{
 	background-image:url("images/NYC.jpg");
-	background-repeat: repeat-x;
 	background-attachment: fixed;
 	background-position:center;
-	background-color:#35465c;
+	background-color:#ffffff;
+	background-size: cover;
 }
 p{
 	
@@ -21,15 +21,20 @@ img{
 }
 .container{
 	background-size:cover;
-	background-color:#00ff00;
-	width: 70%; 
+	background-color:#ffffff;
+	width: 90%; 
 	height:40em;
 	margin: 0 auto; 
+	margin-bottom: 5em;
+	border-radius:5%;
+	/*opacity: 0.9;
+    filter: alpha(opacity=90);*/
 }
 
 .nav{
 	padding:5px;
 	width:85%;
+	
 }
 
 .nav ul{
@@ -38,7 +43,7 @@ img{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;	
+    background-color:#999999;	
 }
 
 .nav li {
@@ -62,6 +67,25 @@ img{
 background-color:#0d2ba3;
 }
 
+.button{
+	background-color:white;
+	height:4em;
+	width:8em;
+	border-radius:10%;
+	color:black;
+	margin: 0 auto; 
+	opacity: 0.8;
+    filter: alpha(opacity=80);
+    text-decoration: none;
+	
+}
+
+.button:hover{
+	background-color:black;
+	color:white;
+	text-decoration: none;
+}
+
 #one{
 	background-image:url("images/me.JPG");
 	background-size:cover;
@@ -69,14 +93,34 @@ background-color:#0d2ba3;
 	text-align:center;
 	}
 #two{
-	background-image:url("images/me2.png");
-	background-size:cover;
-	color:white;
-	text-align:left;
-	}
-#three{
-	background-image:url("images/NYC.jpg");
+	background-image:url("images/maryland.jpg");
 	background-size:cover;
 	color:white;
 	text-align:center;
 	}
+#three{
+	background-image:url("images/10k.jpg");
+	background-size:cover;
+	color:white;
+	text-align:center;
+	}
+	
+#education{
+	text-align:center;
+	padding-top:.2em;
+	font-size:48px;
+	color:white;
+	margin:0 auto;
+	padding-top:3em;
+}
+#umdemblem{
+	background-image:url("images/umdlogo.png");
+	background-size:cover;
+	height:10em;
+	width:10em;
+	border-radius:50%;
+	background-color:white;
+	margin: 0 auto; 
+	
+	
+}
