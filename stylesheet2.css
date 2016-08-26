@@ -1,0 +1,32 @@
+@CHARSET "UTF-8";
+
+body{
+	
+	background-color:#ffffff;
+	background-size: cover;
+	font-family:sans-serif;
+}
+
+.container{
+	background-size:cover;
+	background-color:#ffffff;
+	width: 75%; 
+	height:40em;
+	margin: 0 auto; 
+	margin-bottom: 5em;
+	border-radius:5%;
+	padding-top:.2em;
+	/*opacity: 0.9;
+    filter: alpha(opacity=90);*/
+}
+
+#one{
+	background-image:url("images/win.jpg");
+	background-size:cover;
+	color:white;
+	text-align:center;
+	}
+	
+#one h1{
+	float:left;
+}
