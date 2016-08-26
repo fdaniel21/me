@@ -1,10 +1,10 @@
 @CHARSET "UTF-8";
 
 body{
-	background-image:url("images/NYC.jpg");
+	/*background-image:url("images/NYC.jpg");
 	background-attachment: fixed;
-	background-position:center;
-	background-color:#ffffff;
+	background-position:center;*/
+	background-color:#3785ec;
 	background-size: cover;
 	font-family:sans-serif;
 }
