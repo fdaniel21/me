@@ -3,9 +3,9 @@
 body{
 	/*background-image:url("images/NYC.jpg");
 	background-attachment: fixed;
-	background-position:center;*/
+	background-position:center;
 	background-color:#3785ec;
-	background-size: cover;
+	background-size: cover;*/
 	font-family:sans-serif;
 }
 p{
@@ -23,12 +23,12 @@ img{
 .container{
 	background-size:cover;
 	background-color:#ffffff;
-	width: 90%; 
-	height:40em;
-	margin: 0 auto; 
+	width:100%;
+	height:100vh/*40em*/;
+	/*margin: 0 auto; 
 	margin-bottom: 5em;
 	border-radius:5%;
-	padding-top:.2em;
+	padding-top:.2em;*/
 	/*opacity: 0.9;
     filter: alpha(opacity=90);*/
 }
